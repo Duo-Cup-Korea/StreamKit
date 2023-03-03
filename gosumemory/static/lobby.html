@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KDC23 Streaming Lobby Overlay</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/kdc23.css">
+    <link rel="stylesheet" href="css/lobby.css">
+    <link rel="stylesheet" href="/components/metadata.css">
+    <link rel="stylesheet" href="/components/lobby-mapCompact.css">
+    <link rel="stylesheet" href="/components/lobby-leaderboardBox.css">
+    <script src="js/kdc23.js"></script>
+</head>
+
+<body>
+    <img id="logo" src="img/logo.png"></img>
+    <img id="frame" src="img/lobby-frame.svg"></img>
+
+    <div id="topbar">
+        <div class="acronym acronym-red">NP</div>
+        <div class="verticalCenterFlexBox">
+            <div class="teamName">Never Gonna Give You Up</div>
+        </div>
+        <div style="flex-grow: 1;"></div>
+        <div class="verticalCenterFlexBox">
+            <div class="teamName">틀딱을위한오스는없다</div>
+        </div>
+        <div class="acronym acronym-blue">oldX</div>
+    </div>
+
+    <div id="leftBox" class="verticalCenterFlexBox">
+        <!--<script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
+        <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
+        <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
+        <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
+        <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
+        <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>-->
+
+        <script>HTMLImporter.import("/components/lobby-leaderboardBox.html");</script>
+        <script>HTMLImporter.import("/components/lobby-leaderboardBox.html");</script>
+        <script>HTMLImporter.import("/components/lobby-leaderboardBox.html");</script>
+        <script>HTMLImporter.import("/components/lobby-leaderboardBox.html");</script>
+    </div>
+
+    <script>HTMLImporter.import("/components/metadata.html");</script>
+
+    <div id="matchCodeBox">
+        <div style="text-align: end;">
+            <div id="bracket">Quarterfinals</div>
+            <div>Match</div>
+        </div>
+        <div class="divider"></div>
+        <div id="matchCode">16</div>
+    </div>
+
+    <div id="bottomBox">
+        <div id="chatBox"></div>
+    </div>
+</body>
+
+</html>

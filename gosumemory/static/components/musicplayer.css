@@ -1,0 +1,61 @@
+.intro-musicplayer-bg {
+    position: absolute;
+    right: 128px;
+    bottom: 128px;
+
+    background-color: var(--white);
+    width: 400px;
+    height: 180px;
+}
+
+.intro-musicplayer-info {
+    width: 380px;
+    height: 130px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-musicplayer-cover {
+    margin: 17px;
+    height: 96px;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#artist {
+    font-size: 20px;
+}
+
+.intro-musicplayer-progressbar {
+    position: relative;
+    background-color: black;
+    width: 380px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+#progressbar {
+    background-color: white;
+    height: 100%;
+    width: 33%;
+}
+
+.intro-musicplayer-time {
+    position: absolute;
+    mix-blend-mode: difference;
+    font-weight: 700;
+}
+
+#position {
+    top: 0px;
+    left: 5px;
+}
+
+#length {
+    top: 0px;
+    right: 5px;
+}
