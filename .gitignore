@@ -4,6 +4,6 @@ _Recordings/*
 gosumemory/gosumemory.exe
 gosumemory/static/samples/
 
-_Setup/OBS/Patched
-_Setup/gosumemory
-_Setup/gosumemory.zip
+__Setup/OBS/Patched
+__Setup/gosumemory
+__Setup/gosumemory.zip
