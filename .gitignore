@@ -2,8 +2,9 @@ _Recordings/*
 !_Recordings/Save your Recordings here!.txt
 
 gosumemory/gosumemory.exe
+gosumemory/config.ini
 gosumemory/static/samples/
 
-__Setup/OBS/Patched
+__Setup/OBS/Patched/*
 __Setup/gosumemory
 __Setup/gosumemory.zip
