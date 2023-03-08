@@ -1,6 +1,8 @@
 _Recordings/*
 !_Recordings/Save your Recordings here!.txt
 
+__Setup/.wget-hsts
+
 gosumemory/gosumemory.exe
 gosumemory/config.ini
 gosumemory/static/samples/
