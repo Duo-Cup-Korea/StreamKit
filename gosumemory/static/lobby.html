@@ -17,9 +17,11 @@
 </head>
 
 <body>
+    <!--Logo & Lobby Frame-->
     <img id="logo" src="img/logo.png"></img>
     <img id="frame" src="img/lobby-frame.svg"></img>
 
+    <!--Top Bar: Team Acronyms and Name-->
     <div id="topbar">
         <div class="acronym acronym-red">NP</div>
         <div class="verticalCenterFlexBox">
@@ -32,6 +34,7 @@
         <div class="acronym acronym-blue">oldX</div>
     </div>
 
+    <!--Left Box: Phase Progressions and Leaderboard When Playing-->
     <div id="leftBox" class="verticalCenterFlexBox">
         <!--<script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
         <script>HTMLImporter.import("/components/lobby-mapCompact.html");</script>
@@ -46,8 +49,10 @@
         <script>HTMLImporter.import("/components/lobby-leaderboardBox.html");</script>
     </div>
 
+    <!--Beatmap Metadata Stays at the Right Side-->
     <script>HTMLImporter.import("/components/metadata.html");</script>
 
+    <!--Display Bracket Name and Match Code at the Left Bottom-->
     <div id="matchCodeBox">
         <div style="text-align: end;">
             <div id="bracket">Quarterfinals</div>
@@ -57,6 +62,7 @@
         <div id="matchCode">16</div>
     </div>
 
+    <!--Bottom Box: Lobby Chat and Score Comparison When Playing-->
     <div id="bottomBox">
         <!--<div id="chatBox">
             <script>HTMLImporter.import("/components/chat.html");</script>
