@@ -71,9 +71,31 @@
     margin: 0px 10px 0px 10px;
 }
 
+#banBox::before {
+    content: "BAN";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    opacity: 0.3;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+}
+
 #pickBox {
     width: 955px;
     height: 370px;
+}
+
+#pickBox::before {
+    content: "PICK";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    opacity: 0.3;
+    position: absolute;
+    left: 10px;
+    top: -50px;
 }
 
 .mappool-mapBoxDivider {
@@ -86,13 +108,35 @@
     background-color: #000000;
 }
 
-.mappool-pickedMapRow{
+.mappool-pickedMapRow {
     height: 50%;
     align-items: center;
 }
 
-.mappool-pickedMapRowStartOffset{
+.mappool-pickedMapRowStartOffset {
     width: 105px;
+}
+
+#banpickMappoolDivider {
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 4px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#mappoolColumns {
+    position: absolute;
+    top: 625px;
+    left: 20px;
+    width: calc(100% - 40px);
+}
+
+#mappoolColumns>div {
+    width: 25%;
 }
 
 #bottomBox {
