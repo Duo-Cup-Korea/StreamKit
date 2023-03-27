@@ -10,3 +10,5 @@ gosumemory/static/samples/
 __Setup/OBS/Patched/*
 __Setup/gosumemory
 __Setup/gosumemory.zip
+
+.idea/

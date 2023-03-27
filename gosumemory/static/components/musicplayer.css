@@ -21,16 +21,16 @@
     height: 96px;
 }
 
-#title {
+.intro-musicplayer-title {
     font-size: 24px;
     font-weight: 700;
 }
 
-#artist {
+.intro-musicplayer-artist {
     font-size: 20px;
 }
 
-.intro-musicplayer-progressbar {
+.intro-musicplayer-progressbarBG {
     position: relative;
     background-color: black;
     width: 380px;
@@ -38,7 +38,7 @@
     opacity: 0.5;
 }
 
-#progressbar {
+.intro-musicplayer-progressbar {
     background-color: white;
     height: 100%;
     width: 33%;
@@ -50,12 +50,12 @@
     font-weight: 700;
 }
 
-#position {
+.intro-musicplayer-position {
     top: 0px;
     left: 5px;
 }
 
-#length {
+.intro-musicplayer-length {
     top: 0px;
     right: 5px;
 }

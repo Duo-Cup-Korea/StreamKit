@@ -1,8 +1,8 @@
-.logo{
+.logo {
     height: 100%;
 }
 
-.intro-topbar{
+.intro-topbar {
     display: flex;
     flex-direction: row;
     height: 128px;
@@ -15,7 +15,7 @@
     top: 128px;
 }
 
-.intro-topbar-info{
+.intro-topbar-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,17 +23,25 @@
     margin-left: 50px;
 }
 
-.intro-topbar-info>div{
+.intro-topbar-info > div {
     margin-top: 4px;
     margin-bottom: 4px;
 }
 
-.intro-tourneytitle{
+.intro-tourneytitle {
     font-weight: 700;
     font-size: 40px;
 }
 
-.intro-countdown{
+.intro-matchID {
+    font-size: 24px;
+}
+
+.intro-schedule {
+    font-size: 24px;
+}
+
+.intro-countdown {
     margin-left: auto;
     font-size: 96px;
     font-weight: 800;
@@ -42,7 +50,7 @@
     height: 100%;
 }
 
-.intro-streamTitle{
+.intro-streamTitle {
     position: absolute;
     left: 256px;
     bottom: 256px;

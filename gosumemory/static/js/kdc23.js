@@ -1,4 +1,7 @@
-function HTMLImporter() { }
+NodeList.prototype.forEach = HTMLCollection.prototype.forEach = Array.prototype.forEach;
+
+function HTMLImporter() {
+}
 
 HTMLImporter.import = function (url) {
     var error, http_request, load, script;

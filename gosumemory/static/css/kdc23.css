@@ -23,7 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.bold{
+.bold {
     font-weight: 700;
 }
 
@@ -36,7 +36,7 @@ body {
     background-color: var(--black);
 }
 
-.divider{
+.divider {
     height: 100%;
     width: 2px;
     background-color: white;
@@ -48,7 +48,7 @@ body {
     justify-content: center;
 }
 
-.horizontalFlexBox{
+.horizontalFlexBox {
     display: flex;
     flex-direction: row;
 }
@@ -67,6 +67,6 @@ body {
     background-color: var(--blue);
 }
 
-.circle{
+.circle {
     border-radius: 999px;
 }

@@ -28,7 +28,7 @@
     height: 180px;
 }
 
-.mappool-teamBG>.contentBox {
+.mappool-teamBG > .contentBox {
     width: calc(100% - 30px);
     height: calc(100% - 20px);
     margin: 10px 10px 10px 20px;
@@ -135,7 +135,7 @@
     width: calc(100% - 40px);
 }
 
-#mappoolColumns>div {
+#mappoolColumns > div {
     width: 25%;
 }
 
@@ -163,7 +163,7 @@
     font-weight: 700;
 }
 
-#matchCodeBox>.divider {
+#matchCodeBox > .divider {
     margin-left: 24px;
     margin-right: 24px;
     height: 100px;
