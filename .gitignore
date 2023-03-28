@@ -12,3 +12,5 @@ __Setup/gosumemory
 __Setup/gosumemory.zip
 
 .idea/
+
+gosumemory/static/options/osuapi.txt

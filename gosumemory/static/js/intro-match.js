@@ -1,0 +1,1 @@
+let intro_teams = document.getElementsByClassName("intro-team");

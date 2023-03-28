@@ -57,3 +57,15 @@ HTMLImporter.import = function (url) {
     http_request.open("GET", url);
     http_request.send();
 };
+
+String.prototype.format = function () {
+    let formatted = this;
+    for (let arg in arguments) {
+        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+    }
+    return formatted;
+};
+
+function secondsToMMSS(seconds) {
+    return new Date(seconds * 1000).toISOString().substring(14, 19);
+}
